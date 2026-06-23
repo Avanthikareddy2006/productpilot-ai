@@ -1,0 +1,6 @@
+{
+  "name": "ProductPilot AI",
+  "description": "A full-stack, multi-agent AI workspace helping companies design new products and transform existing ones with MBA Analyst, Product Manager, and Marketing Manager agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
