@@ -1,0 +1,405 @@
+{
+  "users": [
+    {
+      "id": "user_seed",
+      "email": "guest@productpilot.ai",
+      "password": "guest",
+      "name": "Guest Executive",
+      "role": "MBA Analyst"
+    },
+    {
+      "id": "user_admin",
+      "email": "admin@productpilot.ai",
+      "password": "admin",
+      "name": "Board Administrator",
+      "role": "Admin"
+    },
+    {
+      "id": "user_mba",
+      "email": "mba@productpilot.ai",
+      "password": "mba",
+      "name": "Sarah McKinsey",
+      "role": "MBA Analyst"
+    },
+    {
+      "id": "user_pm",
+      "email": "pm@productpilot.ai",
+      "password": "pm",
+      "name": "Alex Stripe",
+      "role": "Product Manager"
+    },
+    {
+      "id": "user_marketing",
+      "email": "marketing@productpilot.ai",
+      "password": "marketing",
+      "name": "Ryan Ogilvy",
+      "role": "Marketing Manager"
+    },
+    {
+      "id": "user_ki1l3pj",
+      "email": "parsharam@gmail.com",
+      "password": "parsharam524136@#$",
+      "name": "Parsharam",
+      "role": "Product Manager"
+    }
+  ],
+  "comments": [
+    {
+      "id": "com_seed_1",
+      "projectId": "proj_seed_1",
+      "userId": "user_mba",
+      "userName": "Sarah McKinsey",
+      "userRole": "MBA Analyst",
+      "text": "SWOT metrics look perfect. Highly recommend prioritizing the IoT telemetry features first to outplace HidrateSpark.",
+      "createdAt": "2026-06-25T05:07:13.069Z"
+    },
+    {
+      "id": "com_seed_2",
+      "projectId": "proj_seed_1",
+      "userId": "user_pm",
+      "userName": "Alex Stripe",
+      "userRole": "Product Manager",
+      "text": "I agree. High priority is waterproofing base tests (IP67) so we don't hit seal leaking problems.",
+      "createdAt": "2026-06-25T05:07:18.069Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_seed_1",
+      "projectId": "proj_seed_1",
+      "title": "Adjust SWOT opportunities for localized expansion metrics",
+      "assignedTo": "MBA Analyst",
+      "completed": false,
+      "createdAt": "2026-06-25T05:07:13.069Z",
+      "createdBy": "user_admin"
+    },
+    {
+      "id": "tsk_seed_2",
+      "projectId": "proj_seed_1",
+      "title": "Refine target bill-of-materials cost allocations below $15",
+      "assignedTo": "MBA Analyst",
+      "completed": false,
+      "createdAt": "2026-06-25T05:07:13.069Z",
+      "createdBy": "user_admin"
+    },
+    {
+      "id": "tsk_seed_3",
+      "projectId": "proj_seed_1",
+      "title": "Perform IP67 leak resistance prototype seal checkoffs",
+      "assignedTo": "Product Manager",
+      "completed": false,
+      "createdAt": "2026-06-25T05:07:13.069Z",
+      "createdBy": "user_seed"
+    },
+    {
+      "id": "tsk_seed_4",
+      "projectId": "proj_seed_1",
+      "title": "Layout social media campaign roadmap templates for #TheSipChallenge",
+      "assignedTo": "Marketing Manager",
+      "completed": false,
+      "createdAt": "2026-06-25T05:07:13.069Z",
+      "createdBy": "user_seed"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_seed_1",
+      "userId": "user_seed",
+      "name": "EcoSmart H2O",
+      "type": "new_product",
+      "input1": {
+        "productName": "EcoSmart H2O",
+        "category": "E-Commerce Consumer Goods",
+        "targetAudience": "Eco-conscious urban professionals aged 22-45",
+        "budget": "$75,000 Initial Pool",
+        "region": "North America & EU",
+        "businessGoal": "Acquire 5,000 core monthly recurring users via sustainable hardware subscription model."
+      },
+      "status": "completed",
+      "createdAt": "2026-06-23T05:07:13.070Z",
+      "report": {
+        "executiveSummary": "The EcoSmart H2O concept is a highly viable and timely consumer hardware initiative addressing drinking water hydration and conservation through smart-IoT bottle capabilities and subscription tracking. The corporate team validates our commercial parameters.",
+        "mbaReport": {
+          "marketResearch": "### Market Sizing and Opportunities\n\nOur smart, reusable water bottle target addressable market (TAM) reaches approximately $2.1 Billion within NA & EU metropolitan grids. Consumers actively opt out of single-use bottles for sustainable premium alternatives. Industry standard CAGR for eco-focused smart consumer electronics sits solid at 11.2%. We locate direct tailwinds in fitness monitoring. Target region alignment is extremely strong.",
+          "competitorAnalysis": "### Key Competitors Analysis\n\n1. **HidrateSpark**: Premier smart tracker with high API integrations. Charges hardware premium but locks users. Weakness: Pricing is steep ($70+).\n2. **Larq**: Focuses on UV purification tech. Strong design footprint and prestige. Weakness: No hydration volume tracking.\n3. **Yeti & Stanley (Analog)**: Massive emotional and commercial brand equity. Weakness: Fully analog, missing data engagement metrics.",
+          "swotAnalysis": {
+            "strengths": [
+              "100% biodegradable ocean-plastic materials",
+              "Proprietary offline hydration metrics sensor panel",
+              "Integrated social fitness community app hooks",
+              "Affordable modular pricing option ($35 MVP cost)"
+            ],
+            "weaknesses": [
+              "Higher hardware production costs than simple bottles",
+              "Requires ongoing server sync database maintenance",
+              "Heavy dependency on metal component supply chains",
+              "Saturated lifestyle tumbler customer mindshare"
+            ],
+            "opportunities": [
+              "Correlate corporate workplace eco-wellness wellness logs",
+              "Venture into localized retail stores scaling channels",
+              "Custom bespoke user engraving customization tiers",
+              "Dynamic carbon reduction metric loyalty system"
+            ],
+            "threats": [
+              "Supply chain bottlenecks on raw silicon sensors",
+              "Low-cost electronic counterfeit replacements",
+              "Slower customer adoption in premium hardware sectors",
+              "Evolving hardware battery safety directives"
+            ]
+          },
+          "demandForecasting": "### Demographics & Demand\n\nWe project core adoption spikes within ages 25-35 urban professional brackets who frequent gyms and utilize iOS/Android fitness ecosystems. Demand calculations predict a 3.4% introductory market conversion on direct social platform ads.",
+          "revenueEstimation": "### Financial Model Framework\n\n- Proposed Unit Retail Price: $45.00 (with ocean plastic design charm).\n- Direct Manufacturing Tier COGS: $14.80 per unit.\n- Gross Margin: 67.1%.\n- Target Break-Even Scale: 1,800 units sold.",
+          "insights": "### Operations & Roadblocks\n\nCritical risks align around electronic firmware sensor calibration delays and shipping battery cargo constraints. General business feasibility is rated high (8/10), provided initial tooling is secured."
+        },
+        "pmReport": {
+          "prd": "### Product Requirements Document\n\n**Product Goal**: To deliver a reliable, beautifully textured smart container tracking real-time intake metrics while providing high-contrast LED indicators. Users can monitor daily goal progress seamlessly.\n\n**Personas**:\n- *Laura, 28*: Tech project lead who spends meetings sitting, forgetting to hydrate. Craves automatic calendar prompts.",
+          "features": [
+            "Haptic Vibration reminders based on historic daily intake deficits.",
+            "Waterproof USB-C modular charging base (IP67 certification).",
+            "Dynamic integrated companion app displaying geographic hydration hotspots.",
+            "Double-walled vacuum insulated, cold storage retention up to 24 hours.",
+            "Automatic Apple Health & Google Fit calorie/hydration index synchronization."
+          ],
+          "specifications": [
+            "Capacitive liquid level sensor built inside robust interior stem.",
+            "Bluetooth 5.2 Low Energy SoC (Nordic Semiconductor).",
+            "Premium brushed food-grade 304 Stainless Steel shell.",
+            "360-mAh rechargeable Li-Poly cell with 12-day battery lifetime."
+          ],
+          "roadmap": [
+            "Q1-Q2 2027: Finalize sensor PCB and enclosure CAD models. Release physical 3D-molded shell.",
+            "Q3 2027: Launch KickStarter crowdfunding; deliver 500 pre-orders to beta validators.",
+            "Q4 2027: Transition into standard commercial Shopify sales. Roll out Android & iOS companion apps.",
+            "Q1 2028: Expand features to include team hydration challenges and enterprise office subscriptions."
+          ],
+          "pricingStrategy": "### Multi-Tier Price Architectureing\n- **Individual Standard Hardware**: $45.00 flat fee.\n- **Premium Eco-Hydration Pack**: $55.00 includes personalized wood-grain cap and app expansion.\n- **Corporate Suite Subscription**: $12.00 monthly recurring per employee (bottle included + enterprise administrative HR health portal).",
+          "recommendations": "### PM Quality Recommendations\n1. Establish robust hardware QA testing to guarantee seals prevent core structural water leakage to the internal PCB module.\n2. Leverage specialized recyclable cardboard packaging to reduce physical materials footprint by 40%."
+        },
+        "marketingReport": {
+          "brandingSuggestions": [
+            "EcoH2O Smart - highly literal, communicates sustainable water tracking.",
+            "SipSphere - modern lifestyle, high brand potential.",
+            "Aura Hydrate - sleek premium aesthetic matching luxury design."
+          ],
+          "taglineSuggestions": [
+            "Sip Intelligently, Live Sustainably.",
+            "Hydrate Your Body. Heal the Planet.",
+            "Smart Hydration in Every Drop."
+          ],
+          "strategy": "### Launch & Marketing Campaign\n\nUtilize localized micro-influencers specializing in modern productivity and aesthetic minimalism. Run active Instagram Reels and TikTok campaigns showing the satisfaction of completing the illuminated hydration LED ring. Deploy key partnerships in boutique gym locations.",
+          "campaigns": [
+            "Campaign #TheSipChallenge: 14-day progressive community hydration tracker log sharing.",
+            "Campaign #WaterPrint: Showcase the metric value of ocean plastic rescued with each bottle sold.",
+            "Campaign #ModernCalm: Position EcoSmart as a workspace desk essential alongside clean keyboards."
+          ],
+          "launchPlan": "### Detailed Launch Plan\n- **Launch Day minus 30**: Warm up early access sign-up list with VIP discounts.\n- **Launch Day**: Live-streamed product launch with eco-advocate founders.\n- **Launch Day plus 30**: Retarget early web visitors with real reviews and unboxing highlights."
+        },
+        "analytics": {
+          "trendData": [
+            {
+              "period": "Q1 2027",
+              "sales": 120,
+              "competitor": 150
+            },
+            {
+              "period": "Q2 2027",
+              "sales": 210,
+              "competitor": 180
+            },
+            {
+              "period": "Q3 2027",
+              "sales": 380,
+              "competitor": 220
+            },
+            {
+              "period": "Q4 2027",
+              "sales": 550,
+              "competitor": 260
+            }
+          ],
+          "sentimentData": [
+            {
+              "rating": "Positive",
+              "value": 85
+            },
+            {
+              "rating": "Neutral",
+              "value": 10
+            },
+            {
+              "rating": "Negative",
+              "value": 5
+            }
+          ],
+          "growthPredictions": [
+            {
+              "period": "Year 1",
+              "withMarketing": 210000,
+              "baseline": 120000
+            },
+            {
+              "period": "Year 2",
+              "withMarketing": 490000,
+              "baseline": 210000
+            },
+            {
+              "period": "Year 3",
+              "withMarketing": 890000,
+              "baseline": 340000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "proj_seed_2",
+      "userId": "user_seed",
+      "name": "PulseTracker v1",
+      "type": "improvement",
+      "input2": {
+        "productName": "PulseTracker v1",
+        "category": "Wearable Health Monitors",
+        "salesDataText": "Steady decline since competitor released v2. Sales down 45% over last two quarters. Q1 sales 4000 units, Q2 sales 2200 units. Price pressure from cheaper imports.",
+        "reviewsText": "Customer reviews are critical: 2.8 stars average. Complaints on short battery life (only lasts 14 hours), slow wireless synchronization, screen is unreadable under harsh sunlight, strap tears easily during workouts.",
+        "competitorInfo": "Xiaomi Band and FitBit Charge occupy midmarket brackets. Charge has 7-day battery life and seamless sync, Xiaomi pricing is flatly $35, half of our price.",
+        "description": "A mid-tier fitness band tracking steps, active pulse, sleep score, and basic call notifications."
+      },
+      "status": "completed",
+      "createdAt": "2026-06-24T05:07:13.070Z",
+      "report": {
+        "executiveSummary": "Strategic business transformation analysis validates that physical strap deficiencies, screen legibility limitations, and server synchronization delays are causing critical customer attrition for PulseTracker v1. Retooling and v2 rebranding are highly recommended.",
+        "mbaReport": {
+          "marketResearch": "### Historical Downturn Diagnosis\n\nSales metrics verify an urgent need for physical product adjustments. Sales fell from 4,000 to 2,200 units (45% downturn) following the introduction of competitor v2 variants featuring extended multi-day battery cycles. Standard margins must be optimized via parts replacement.",
+          "competitorAnalysis": "### Direct Competitive Gaps\n\n- **Xiaomi Band**: Attracts price-conscious consumers at $35 with dependable 14-day battery metrics. This sets the pricing floor.\n- **Fitbit Charge**: Provides premium community ecosystems, sleep insights, and seamless sync, justifying its $80 price tier.\n- **PulseTracker v1 (Our Model)**: Priced at $69 but suffers 14-hour real battery depletion. Unfavorable customer ratings call for swift correction.",
+          "swotAnalysis": {
+            "strengths": [
+              "Highly responsive integrated heart-rate algorithms",
+              "Established fitness tracking database layers",
+              "High core brand goodwill among veteran fans",
+              "Water-resistant aluminum alloy sensor casing"
+            ],
+            "weaknesses": [
+              "Short 14-hour physical battery cycle lifespan",
+              "Fragile silicone wrist strap that splits easily",
+              "Unreadable OLED display in natural outdoor light",
+              "Server synchronization latency issues in companion app"
+            ],
+            "opportunities": [
+              "Shift-focus to corporate digital wellness subscriptions",
+              "Formulate customizable nylon utility straps v2",
+              "Integrate automated AI wellness coaching tips",
+              "Aggressive price revitalization campaigns"
+            ],
+            "threats": [
+              "Dynamic price undercut from foreign importers",
+              "Losing tracking API approvals with Apple/Google Fit",
+              "Extended hardware warehouse overheads",
+              "Customer transition to comprehensive smartwatches"
+            ]
+          },
+          "demandForecasting": "### App Sentiment Analysis\n\nUser reviews show clear friction points with 2.8 average stars. Negative sentiment clusters securely around battery (42%), strap failure (28%), app failure (18%), and screen light (12%). Addressing these yields an estimated 180% surge in positive ratings.",
+          "revenueEstimation": "### Revitalized Cost Analysis\n- Current COGS: $26.50 (with obsolete parts).\n- Target Improved COGS: $21.20 by introducing standard high-capacity battery architectures and premium lightweight glass filters.",
+          "insights": "### Diagnostic Feasibility Summary\n\nProduct improvements remain highly profitable. Launching an optimized model can re-acquire 60% of lost consumer market share."
+        },
+        "pmReport": {
+          "prd": "### Product Requirements Document v2\n\n**Mission Statement**: Redesign and transform PulseTracker from a fragile device into a 7-day rugged fitness buddy with high sunlight visibility.\n\n**Identified Weaknesses**:\n1. Fragile, low-tensile silicone strap.\n2. Inefficient battery circuit causing 14-hour limits.\n3. Low-lumens OLED display screen.\n4. High wireless latency on data uploads.",
+          "features": [
+            "V2 Rugged Fluorocarbon strap formulation - 3x stronger.",
+            "Ultra-efficient micro-energy management chip driving a 7-day runtime.",
+            "High-contrast AMOLED display reaching 650 nits peak sunlight brightness.",
+            "Upgrade to Bluetooth Low Energy 5.3 SoC reducing sync latency by 70%."
+          ],
+          "specifications": [
+            "Integrated real-time Blood Oxygen (SpO2) optical module.",
+            "6-Axis motion accelerometer & gyroscope.",
+            "Anodized Aerospace Aluminum casing (IP68, 5ATM waterproofing depth).",
+            "180-mAh dense polymer batteries with fast magnetic charging cable."
+          ],
+          "roadmap": [
+            "Month 1: Tooling adjustment for improved fluorocarbon casing, pilot PCB validation.",
+            "Month 2: App hotfix to streamline offline sync and handle background battery saving.",
+            "Month 3-4: Launch PulseTracker v2 Upgrade Program to existing purchasers at 50% discount.",
+            "Month 5: Scaling retail supply chains into larger electronic brick-and-mortar storefronts."
+          ],
+          "pricingStrategy": "### Revised Pricing Architecture\n- **Base Launch Price**: $59.00 (discounted to grab Xiaomi and FitBit market share).\n- **Upgrade Tier**: $45.00 for original purchasers.\n- **Enterprise Bulk Pricing**: $32.00 in orders of 1,000+ units.",
+          "recommendations": "### Operational Directives\nMigrate assembly sourcing to modular contract producers to control high-volume yields. Institute strict quality tests for strap flexibility."
+        },
+        "marketingReport": {
+          "brandingSuggestions": [
+            "PulseTracker Pro v2 - High performance positioning.",
+            "Aura Pulse v2 - Holistic lifestyle appeal.",
+            "Apex Pulse v2 - Professional workout emphasis."
+          ],
+          "taglineSuggestions": [
+            "Ruggedly Refined. Endlessly Tracking.",
+            "7 Days of Power, 24 Hours of Precision.",
+            "Reborn to Move with You."
+          ],
+          "strategy": "### Digital Customer Acquisition Strategy\n\nRun highly transparent 'Behind-The-Scenes Re-Engineering' video campaigns. Address critical negative reviews directly with humor and detail (e.g., 'Yes, our strap broke—so we built a new one that can pull a truck'). This authentic positioning establishes massive digital brand integrity.",
+          "campaigns": [
+            "Social Campaign #TheRebirth: Interactive customer exchange stories.",
+            "Influencer Campaign #PulseWeek: 7-day fitness routine videos showcasing zero recharges.",
+            "Retargeting Campaign #WeHeardYou: Dedicated CRM ads directly mapping upgraded features."
+          ],
+          "launchPlan": "### Growth Impact Prediction\nWe project digital campaigns will generate over 20 Million views in targeted health niches, leading to 15,000 introductory device sales, driving a post-upgrade positive sentiment index of 91%."
+        },
+        "analytics": {
+          "trendData": [
+            {
+              "period": "Pre-Drop",
+              "sales": 4000,
+              "competitor": 1500
+            },
+            {
+              "period": "Q1 Drop",
+              "sales": 2200,
+              "competitor": 2500
+            },
+            {
+              "period": "Q2 Drop",
+              "sales": 1200,
+              "competitor": 3200
+            },
+            {
+              "period": "Upgrade Launch (Proj)",
+              "sales": 3800,
+              "competitor": 2100
+            }
+          ],
+          "sentimentData": [
+            {
+              "rating": "Positive",
+              "value": 35
+            },
+            {
+              "rating": "Neutral",
+              "value": 25
+            },
+            {
+              "rating": "Negative",
+              "value": 40
+            }
+          ],
+          "growthPredictions": [
+            {
+              "period": "Month 1 (Fix)",
+              "withMarketing": 25000,
+              "baseline": 8000
+            },
+            {
+              "period": "Month 3 (Growth)",
+              "withMarketing": 65000,
+              "baseline": 12000
+            },
+            {
+              "period": "Month 6 (Maturity)",
+              "withMarketing": 180000,
+              "baseline": 18000
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
